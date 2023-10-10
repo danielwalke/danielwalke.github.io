@@ -1,12 +1,11 @@
 <template>
-  <div class="w-1/5">
-    <div class="flex gap-2">
-      <div>Blog</div>
-      <div>Site notice</div>
+  <div>
+    <div class="flex gap-2 flex-col bg-white">
+      <router-link to="/">Home</router-link>
+      <router-link to="/blog">Blog</router-link>
+      <router-link to="/site_notice">Site notice</router-link>
     </div>
   </div>
-
-
 </template>
 
 <script>
