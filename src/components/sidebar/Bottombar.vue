@@ -1,7 +1,8 @@
 <template>
-    <div class="flex gap-2 flex-col bg-gray-100 h-full p-2 shadow-md">
+    <div class="flex gap-2 justify-center bg-gray-100 h-full p-2 shadow-md">
       <router-link class="router" to="/">Home</router-link>
       <router-link class="router" to="/blog">Blog</router-link>
+      <router-link class="router" to="/lilli_list">Lilli-Liste (private)</router-link>
       <router-link class="router" to="/site_notice">Site notice</router-link>
     </div>
 </template>
@@ -12,7 +13,7 @@ import { ref, watch } from 'vue'
 import { useRoute } from 'vue-router';
 
 export default {
-  name: "Sidebar",
+  name: "Bottombar",
   setup() {
     const store = useSidebarStore()
     const route = useRoute()

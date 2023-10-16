@@ -30,8 +30,9 @@
     </BlogComponent>
 
     <BlogComponent>
-      How to create an SSH connection?
+      How to connect to a remote server/computer (create an SSH connection)?
       <ol class="list-decimal p-4">
+        <li>Make sure you are in the same network (e.g., by using a VPN)</li>
         <li>Open a commoand window (cmd/powershell/batch on windows, terminal on macos and Linux)</li>
         <li>Type in the command window: ````ssh remote_username@remote_ip_address```</li>
       </ol>

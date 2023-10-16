@@ -6,12 +6,14 @@ import VueSetup from "./components/blog/howTo/VueSetup.vue";
 import Intro from "./components/blog/Intro.vue";
 import SiteNotice from "./components/siteNotice/SiteNotice.vue";
 import { createPinia, defineStore } from 'pinia'
+import LilliList from "./components/wishList/LilliList.vue";
 
 
 const routes = [
     { path: '/', component: Intro, name:"home"},
     { path: '/blog', component: VueSetup, name:"blog"},
     { path: '/site_notice', component: SiteNotice, name: "siteNotice"},
+    { path: '/lilli_list', component: LilliList, name: "LilliList"},
 ]
 
 const router = createRouter({

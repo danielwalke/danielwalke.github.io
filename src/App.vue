@@ -1,15 +1,15 @@
 <script setup>
-import Sidebar from "./components/sidebar/Sidebar.vue";
+import Bottombar from "./components/sidebar/Bottombar.vue";
 </script>
 
 <template>
   <div class="w-screen h-screen">
-    <div class="flex h-full">
-      <div class="lg:w-1/6 h-full w-1/3">
-        <Sidebar/>
-      </div>
-      <div class="lg:w-5/6 text-white p-2 w-2/3">
+    <div class="flex h-full flex-col">
+      <div class="text-white p-2 w-full h-full overflow-y-auto">
         <router-view></router-view>
+      </div>
+      <div class="h-1/12 w-full">
+        <Bottombar/>
       </div>
     </div>
 
