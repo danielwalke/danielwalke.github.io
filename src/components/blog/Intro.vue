@@ -1,17 +1,19 @@
 <template>
-<div class="flex justify-center text-gray-900 h-full">
-  <div class="lg:w-2/3 h-full pt-3 overflow-y-auto">
-    <div class="bg-gray-100 rounded-md p-4 mb-4">
+    <div class="bg-gray-100 rounded-md p-4 mb-4 text-black h-screen">
       <div class="flex justify-center">
-        <img class="bg-gray-600 w-2/4 mb-2 rounded-md" src="../../assets/profile_img.jpeg" alt="Bild"/>
+        <img class="bg-gray-600 w-1/3 mb-2 rounded-md" src="../../assets/profile_img.jpeg" alt="Bild"/>
       </div>
       <h1 class="font-bold text-2xl text-center"> My name is Daniel Walke. </h1>
-      <p class="text-center text-lg font-bold p-4">
-        I am PhD student at the Otto-von-Guericke University. The topic for my PhD is optimizing graph databases and graph learning for
-        large clinical and biological datasets. Therefore, I applied several graph learning algorithms like Graph Neural Networks
-        on diverse datasets and aim to improve the predictive power of machine learning using graph structures.
-      </p>
+      <div class="flex justify-center">
+        <p class="text-center text-lg font-bold p-4 w-2/3">
+          I am PhD student at the Otto-von-Guericke University. The topic for my PhD is optimizing graph databases and graph learning for
+          large clinical and biological datasets. Therefore, I applied several graph learning algorithms like Graph Neural Networks
+          on diverse datasets and aim to improve the predictive power of machine learning using graph structures.
+        </p>
+      </div>
     </div>
+  <div class="flex justify-center text-gray-900 h-full">
+  <div class="lg:w-2/3 pt-3">
 
     <h4 class="subsection-header">Professional Career.</h4>
 
