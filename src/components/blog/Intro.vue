@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-100 rounded-md p-4 mb-4 text-black h-screen">
+    <div class="bg-gray-100 rounded-md p-4 mb-4 text-black min-h-full">
       <div class="flex justify-center">
         <img class="bg-gray-600 w-1/3 mb-2 rounded-md" src="../../assets/profile_img.jpeg" alt="Bild"/>
       </div>
@@ -245,7 +245,7 @@ export default {
 
 <style scoped>
 .inner-box{
-  @apply bg-gray-100 rounded-md p-4 lg:p-6 font-bold mb-4 w-full
+  @apply bg-gray-100 rounded-lg p-4 lg:p-6 font-bold mb-4 w-full shadow-lg
 }
 
 .row{
