@@ -1,6 +1,6 @@
 <template>
 <div class="flex justify-center text-gray-900 h-full">
-  <div class="lg:w-2/3 h-full mt-3 overflow-y-auto">
+  <div class="lg:w-2/3 h-full pt-3 overflow-y-auto">
     <div class="bg-gray-100 rounded-md p-4 mb-4">
       <div class="flex justify-center">
         <img class="bg-gray-600 w-2/4 mb-2 rounded-md" src="../../assets/profile_img.jpeg" alt="Bild"/>
@@ -243,7 +243,7 @@ export default {
 
 <style scoped>
 .inner-box{
-  @apply bg-gray-100 rounded-md p-2 lg:p-6 font-bold mb-4 w-full
+  @apply bg-gray-100 rounded-md p-4 lg:p-6 font-bold mb-4 w-full
 }
 
 .row{
@@ -253,6 +253,7 @@ export default {
 .subsection-header{
   @apply text-4xl text-center font-bold p-4 mb-4 mt-4
 }
+
 ul{
   @apply lg:p-4 p-2
 }
