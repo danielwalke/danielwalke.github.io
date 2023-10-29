@@ -8,7 +8,6 @@ import SiteNotice from "./components/siteNotice/SiteNotice.vue";
 import { createPinia, defineStore } from 'pinia'
 import LilliList from "./components/wishList/LilliList.vue";
 
-
 const routes = [
     { path: '/', component: Intro, name:"home"},
     { path: '/blog', component: VueSetup, name:"blog"},
@@ -35,10 +34,29 @@ export const useSidebarStore = defineStore('counter', {
     },
 })
 
+var GetFileBlobUsingURL = function (url, convertBlob) {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url);
+    xhr.responseType = "blob";
+    xhr.addEventListener('load', function() {
+        convertBlob(xhr.response);
+    });
+    xhr.send();
+};
 
+var blobToFile = function (blob, name) {
+    blob.lastModifiedDate = new Date();
+    blob.name = name;
+    return blob;
+};
+
+var GetFileObjectFromURL = function(filePathOrUrl, convertBlob) {
+    GetFileBlobUsingURL(filePathOrUrl, function (blob) {
+        convertBlob(blobToFile(blob, 'main.js'));
+    });
+};
 
 const app = createApp(App)
-app.use(router)
 app.use(router)
 app.use(pinia)
 app.mount('#app')

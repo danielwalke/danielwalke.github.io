@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #app{
-  @apply bg-gray-800 h-screen
+  @apply bg-gray-300 h-screen
 }
 @media (prefers-color-scheme: light) {
   :root {

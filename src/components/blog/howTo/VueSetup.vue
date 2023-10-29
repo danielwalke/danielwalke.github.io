@@ -37,14 +37,18 @@
         <li>Type in the command window: ````ssh remote_username@remote_ip_address```</li>
       </ol>
     </BlogComponent>
+    <blog-component>
+      <CreateWebapplication/>
+    </blog-component>
   </div>
 </template>
 
 <script>
 import BlogComponent from "../BlogComponent.vue";
+import CreateWebapplication from "./webdev/CreateWebapplication.vue";
 export default {
   name: "VueSetup",
-  components: {BlogComponent}
+  components: {CreateWebapplication, BlogComponent}
 }
 </script>
 
