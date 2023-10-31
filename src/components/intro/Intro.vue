@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-100 rounded-md p-4 mb-4 text-black min-h-full">
+    <div class="bg-gray-100 rounded-md p-4 mb-4 text-black lg:min-h-full">
       <div class="flex justify-center">
         <img class="profile-img" src="../../assets/profile_img.jpeg" alt="Bild"/>
       </div>
@@ -12,6 +12,7 @@
         </p>
       </div>
     </div>
+
     <div class="flex justify-center text-gray-900 h-full w-full">
     <div class="lg:w-2/3 pt-3 w-full">
 
@@ -192,7 +193,7 @@ export default {
 }
 
 .subsection-header{
-  @apply text-2xl lg:text-4xl text-center font-bold p-4 mb-4 mt-4
+  @apply text-4xl text-center font-bold p-4 mb-4 mt-4
 }
 
 ul{

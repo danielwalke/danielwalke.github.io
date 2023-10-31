@@ -18,11 +18,11 @@ const props = defineProps({
 
 <style scoped>
 .card-header{
-  @apply text-lg lg:text-2xl text-center font-bold p-2 lg:p-4 mb-2
+  @apply text-2xl text-center font-bold p-4 mb-2
 }
 
 .inner-box{
-  @apply bg-gray-100 rounded-lg p-2 lg:p-4 lg:p-6 font-bold mb-4 shadow-lg whitespace-pre-wrap basis-1/2
+  @apply bg-gray-100 rounded-lg p-4 lg:p-6 font-bold mb-4 shadow-lg whitespace-pre-wrap basis-1/2
 }
 
 
