@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-100 rounded-md p-4 mb-4 text-black lg:min-h-full">
+    <div class="bg-gray-100 rounded-md p-4 mb-4 text-black min-h-full">
       <div class="flex justify-center">
         <img class="profile-img" src="../../assets/profile_img.jpeg" alt="Bild"/>
       </div>
@@ -181,7 +181,7 @@ export default {
 
 <style scoped>
 .row{
-  @apply flex overflow-x-auto gap-4 w-full flex-nowrap whitespace-nowrap pr-4 pl-4
+  @apply flex overflow-x-scroll gap-4 w-full flex-nowrap whitespace-nowrap pr-4 pl-4
   lg:flex-nowrap lg:flex-row lg:whitespace-normal lg:gap-8
 }
 
@@ -209,11 +209,11 @@ a{
 }
 
 .profile-img{
-  @apply w-2/3 bg-gray-600 lg:w-1/3 mb-2 rounded-md
+  @apply w-3/4 bg-gray-600 lg:w-1/3 mb-2 rounded-md
 }
 
 .intro-text{
-  @apply text-base text-center w-full lg:text-lg font-bold p-4 lg:w-2/3
+  @apply text-base text-center w-full text-lg font-bold p-4 lg:w-2/3
 }
 
 .name-text{
