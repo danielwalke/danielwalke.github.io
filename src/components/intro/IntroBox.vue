@@ -1,6 +1,6 @@
 <template>
   <div class="inner-box">
-    <div class="w-[85vw] lg:w-full">
+    <div class="w-[75vw] lg:w-full">
       <h4 class="card-header">{{header}}</h4>
       <ul class="list-none">
         <slot></slot>

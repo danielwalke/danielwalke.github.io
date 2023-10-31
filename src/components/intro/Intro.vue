@@ -11,6 +11,10 @@
           on diverse datasets and aim to improve the predictive power of machine learning using graph structures.
         </p>
       </div>
+      <div class="flex justify-center">
+        <img src="../../assets/arrow_down.svg" class="animate-bounce h-12"/>
+      </div>
+
     </div>
 
     <div class="flex justify-center text-gray-900 h-full w-full">
