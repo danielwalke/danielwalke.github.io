@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #app{
-  @apply bg-gray-300 h-screen
+  @apply bg-gray-200 h-screen
 }
 
 #app{

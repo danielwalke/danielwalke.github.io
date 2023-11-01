@@ -11,8 +11,8 @@
           on diverse datasets and aim to improve the predictive power of machine learning using graph structures.
         </p>
       </div>
-      <div class="flex justify-center" v-if="isSmall">
-        <img src="../../assets/arrow_down.svg" class="animate-bounce h-12"/>
+      <div class="flex justify-center mt-4" v-if="isSmall">
+        <img src="../../assets/double_down.svg" class="scale-90 animate-bounce h-12"/>
       </div>
 
     </div>
@@ -207,7 +207,7 @@ ul{
 }
 
 li{
-  @apply lg:mb-2
+  @apply lg:mb-2 text-lg ml-2
 }
 
 a{
@@ -215,14 +215,14 @@ a{
 }
 
 .profile-img{
-  @apply w-3/4 bg-gray-600 lg:w-1/3 mb-2 rounded-md max-w-[400px]
+  @apply w-3/4 lg:w-1/3 mb-4 rounded-md max-w-[400px]
 }
 
 .intro-text{
-  @apply text-base text-center w-full text-lg font-bold p-4 lg:w-2/3
+  @apply text-base text-center w-full text-lg lg:text-2xl font-bold p-4 lg:w-3/5
 }
 
 .name-text{
-  @apply font-bold text-2xl text-center
+  @apply font-bold text-2xl lg:text-3xl text-center
 }
 </style>
