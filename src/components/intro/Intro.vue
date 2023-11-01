@@ -187,8 +187,8 @@ const isSmall = ref(window.innerWidth<=500)
 
 <style scoped>
 .row{
-  @apply flex overflow-x-scroll gap-4 w-full flex-nowrap whitespace-nowrap pr-4 pl-4
-  lg:flex-nowrap lg:flex-row lg:whitespace-normal lg:gap-8
+  @apply flex overflow-x-auto w-full flex-nowrap whitespace-nowrap pr-4 pl-4
+  lg:flex-nowrap lg:flex-row lg:whitespace-normal
 }
 
 .row:first-child{
@@ -199,7 +199,7 @@ const isSmall = ref(window.innerWidth<=500)
 }
 
 .subsection-header{
-  @apply text-4xl text-center font-bold p-4 mb-4 mt-4
+  @apply text-4xl text-center font-bold p-4 mb-4 mt-4 select-none
 }
 
 ul{

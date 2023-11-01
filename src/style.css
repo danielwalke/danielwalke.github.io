@@ -5,6 +5,11 @@
 #app{
   @apply bg-gray-300 h-screen
 }
+
+#app{
+  font-family: -apple-system;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
