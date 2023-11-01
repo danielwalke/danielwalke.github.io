@@ -11,7 +11,7 @@
           on diverse datasets and aim to improve the predictive power of machine learning using graph structures.
         </p>
       </div>
-      <div class="flex justify-center">
+      <div class="flex justify-center" v-if="isSmall">
         <img src="../../assets/arrow_down.svg" class="animate-bounce h-12"/>
       </div>
 
@@ -169,18 +169,20 @@
       </div>
 
       <div class="text-sm">Additional Notes: This will be my personal portofolio page. For now this is just some hobby to keep my vue & tailwind skills sharp. Hopefully you will see soe more beautiful stuff here soon.</div>
+      <div class="text-sm">Currently, this side seems a bit dead. I will add more animations and clearer design soon.</div>
+      <div>Current date: 31.10.23 - First prototype portfolio</div>
       <div>Current date: 08.10.23 - Project initialization</div>
   </div>
 
     </div>
 </template>
 
-<script>
+<script setup>
 import IntroBox from "./IntroBox.vue";
-export default {
-  name: "Intro",
-  components: {IntroBox}
-}
+import {ref} from "vue";
+
+const isSmall = ref(window.innerWidth<=500)
+
 </script>
 
 <style scoped>
@@ -213,7 +215,7 @@ a{
 }
 
 .profile-img{
-  @apply w-3/4 bg-gray-600 lg:w-1/3 mb-2 rounded-md
+  @apply w-3/4 bg-gray-600 lg:w-1/3 mb-2 rounded-md max-w-[400px]
 }
 
 .intro-text{
