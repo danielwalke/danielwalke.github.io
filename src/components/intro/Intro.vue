@@ -11,7 +11,7 @@
           on diverse datasets and aim to improve the predictive power of machine learning using graph structures.
         </p>
       </div>
-      <div class="flex justify-center mt-4" v-if="isSmall">
+      <div class="flex justify-center mt-4 cursor-pointer" @click="scrollToCareer">
         <img src="../../assets/double_down.svg" class="scale-90 animate-bounce h-12"/>
       </div>
 
@@ -20,7 +20,7 @@
     <div class="flex justify-center text-gray-900 h-full w-full">
     <div class="lg:w-2/3 pt-3 w-full">
 
-      <h4 class="subsection-header">Professional Career.</h4>
+      <h4 class="subsection-header" id="career">Professional Career.</h4>
 
 
       <div class="row">
@@ -182,7 +182,10 @@ import IntroBox from "./IntroBox.vue";
 import {ref} from "vue";
 
 const isSmall = ref(window.innerWidth<=500)
-
+const scrollToCareer = function(){
+  const careerHeader = document.getElementById("career")
+  careerHeader.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+}
 </script>
 
 <style scoped>
