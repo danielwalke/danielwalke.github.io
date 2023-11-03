@@ -25,51 +25,51 @@
 
       <div class="row">
         <IntroBox header="Research fellow (full-time)">
-          <li>Where?<br/> <div class="text-right">Otto-von-Guericke University</div></li>
-          <li>When?<br/> <div class="text-right">Since January 2023</div></li>
-          <li>What?<br/> <div class="text-right whitespace-pre-wrap">Applying graph learning algorithms on sepsis complete blood count data (pandas, numpy, scikit-learn,
+          <li>Where? <div class="text-right">Otto-von-Guericke University</div></li>
+          <li>When? <div class="text-right">Since January 2023</div></li>
+          <li>What? <div class="text-right whitespace-pre-wrap">Applying graph learning algorithms on sepsis complete blood count data (pandas, numpy, scikit-learn,
             PyTorch, PyG)</div></li>
         </IntroBox>
 
         <IntroBox header="Research fellow (part-time)">
-          <li>Where?<br/> <div class="text-right">Otto-von-Guericke University</div></li>
-          <li>When?<br/> <div class="text-right">December 2021 - December 2022</div></li>
-          <li>What?<br/> <div class="text-right">Literature survey about graph databases and graph learning</div></li>
+          <li>Where? <div class="text-right">Otto-von-Guericke University</div></li>
+          <li>When? <div class="text-right">December 2021 - December 2022</div></li>
+          <li>What? <div class="text-right">Literature survey about graph databases and graph learning</div></li>
         </IntroBox>
       </div>
 
 
       <div class="row">
         <IntroBox header="Software developer (part-time)">
-          <li>Where?<br/> <div class="text-right">METOP GmbH</div></li>
-          <li>When?<br/> <div class="text-right">December 2021 - December 2022</div></li>
-          <li>What?<br/> <div class="text-right">Web development (Vue, JavaScript, TypeScipt, Parse)</div></li>
+          <li>Where? <div class="text-right">METOP GmbH</div></li>
+          <li>When? <div class="text-right">December 2021 - December 2022</div></li>
+          <li>What? <div class="text-right">Web development (Vue, JavaScript, TypeScipt, Parse)</div></li>
         </IntroBox>
 
         <IntroBox header="Software developer (full-time)">
-          <li>Where?<br/> <div class="text-right">METOP GmbH</div></li>
-          <li>When?<br/> <div class="text-right">August 2021 - November 2021</div></li>
-          <li>What?<br/> <div class="text-right">Web development (Vue, JavaScript, Parse)</div></li>
+          <li>Where? <div class="text-right">METOP GmbH</div></li>
+          <li>When? <div class="text-right">August 2021 - November 2021</div></li>
+          <li>What? <div class="text-right">Web development (Vue, JavaScript, Parse)</div></li>
         </IntroBox>
       </div>
 
       <div class="row">
         <IntroBox header="Research Assistant (part-time)">
-          <li>Where?<br/> <div class="text-right">Otto-von-Guericke University</div></li>
-          <li>When?<br/> <div class="text-right">May 2021 - August 2021</div></li>
-          <li>What?<br/> <div class="text-right">Paper writing & Web development (ReactJS) with Java Backend</div></li>
+          <li>Where? <div class="text-right">Otto-von-Guericke University</div></li>
+          <li>When? <div class="text-right">May 2021 - August 2021</div></li>
+          <li>What? <div class="text-right">Paper writing & Web development (ReactJS) with Java Backend</div></li>
         </IntroBox>
 
         <IntroBox header="Research Assistant (part-time)">
-          <li>Where?<br/> <div class="text-right">Otto-von-Guericke University</div></li>
-          <li>When?<br/> <div class="text-right">August 2020 - January 2021</div></li>
-          <li>What?<br/> <div class="text-right">Web development (ReactJS) with Java Backend</div></li>
+          <li>Where? <div class="text-right">Otto-von-Guericke University</div></li>
+          <li>When? <div class="text-right">August 2020 - January 2021</div></li>
+          <li>What? <div class="text-right">Web development (ReactJS) with Java Backend</div></li>
         </IntroBox>
 
         <IntroBox header="Tutor (part-time)">
-          <li>Where?<br/> <div class="text-right">Otto-von-Guericke University</div></li>
-          <li>When?<br/> <div class="text-right">October 2019 - January 2020</div></li>
-          <li>What?<br/> <div class="text-right">Correction of MATLAB exercises for simulating biotechnological processes</div></li>
+          <li>Where? <div class="text-right">Otto-von-Guericke University</div></li>
+          <li>When? <div class="text-right">October 2019 - January 2020</div></li>
+          <li>What? <div class="text-right">Correction of MATLAB exercises for simulating biotechnological processes</div></li>
         </IntroBox>
       </div>
 
@@ -77,16 +77,16 @@
 
       <div class="row">
         <IntroBox header="The importance of graph databases and graph learning for clinical applications">
-          <li>Authors <br/> Daniel Walke*, Daniel Micheel*, Kay Schallert, Thilo Muth, Gunter Saake, David Broneske, Robert Heyer</li>
-          <li>Journal <br/><div class="text-right">DATABASE The Journal of Biological Databses and Curation</div></li>
-          <li>Link <br/><a href="https://academic.oup.com/database/article/doi/10.1093/database/baad045/7222237" target="_blank">Publication</a></li>
+          <li>Authors: Daniel Walke*, Daniel Micheel*, Kay Schallert, Thilo Muth, Gunter Saake, David Broneske, Robert Heyer</li>
+          <li>Journal: DATABASE The Journal of Biological Databses and Curation</li>
+          <li>Link: <a href="https://academic.oup.com/database/article/doi/10.1093/database/baad045/7222237" target="_blank">Publication</a></li>
         </IntroBox>
 
         <IntroBox header="MPA_Pathway_Tool: User-Friendly, Automatic Assignment of
               Microbial Community Data on Metabolic Pathways">
-          <li>Authors <br/> Daniel Walke*, Kay Schallert, Prasanna Ramesh, Dirk Benndorf, Emanuel Lange, Udo Reichl, Robert Heyer</li>
-          <li>Journal <br/><div class="text-right">International Journal of Molecular Sciences</div></li>
-          <li>Link <br/><a href="https://pure.mpg.de/rest/items/item_3348333/component/file_3348946/content" target="_blank">Publication</a></li>
+          <li>Authors: Daniel Walke*, Kay Schallert, Prasanna Ramesh, Dirk Benndorf, Emanuel Lange, Udo Reichl, Robert Heyer</li>
+          <li>Journal: International Journal of Molecular Sciences</li>
+          <li>Link: <a href="https://pure.mpg.de/rest/items/item_3348333/component/file_3348946/content" target="_blank">Publication</a></li>
         </IntroBox>
       </div>
 
@@ -132,7 +132,9 @@
         </IntroBox>
 
         <IntroBox header="Modeling biotechnological processes">
-          <li>MATLAB with ODE-solvers</li>
+          <li>MATLAB</li>
+          <li>ODE solver</li>
+          <li>fmin-search</li>
         </IntroBox>
       </div>
 
@@ -210,7 +212,7 @@ ul{
 }
 
 li{
-  @apply lg:mb-2 text-lg ml-2
+  @apply lg:mb-2 text-lg ml-2 m-2 lg:p-0
 }
 
 a{

@@ -5,7 +5,7 @@ import Bottombar from "./components/sidebar/Bottombar.vue";
 <template>
   <div class="w-screen h-screen overflow-hidden">
     <div class="flex flex-col h-full">
-      <div class="text-white w-full overflow-y-auto main-container h-full">
+      <div class="w-full overflow-y-auto main-container h-full">
         <router-view></router-view>
       </div>
       <div class="h-[50px] w-full">
