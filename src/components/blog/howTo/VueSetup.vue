@@ -48,7 +48,7 @@
 
 <script setup>
 //import BlogComponent from "../BlogComponent.vue";
-//import CreateWebapplication from "./webdev/CreateWebapplication.vue";
+import CreateWebapplication from "./webdev/CreateWebapplication.vue";
 import {computed, ref} from "vue";
 import { v4 as uuid } from 'uuid';
 
@@ -65,7 +65,7 @@ const blogItems = [
     "id": uuid(),
     "question": "When is this blog complete?",
     "answer": "Potentially never because I will hopefully learn new things every day and try to update this page as good as I can"
-  }
+  },
 ]
 
 const filteredBlogItems = computed(()=>{
