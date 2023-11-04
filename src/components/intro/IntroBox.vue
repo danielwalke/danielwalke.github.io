@@ -22,7 +22,7 @@ const isHidden = ref(true)
 
 <style scoped>
 .card-header{
-  @apply text-2xl lg:text-3xl text-center font-bold p-4 mb-2 hover:bg-gray-900 hover:text-white
+  @apply text-2xl transition ease-in-out duration-300 lg:text-3xl text-center font-bold p-4 mb-2 hover:bg-gray-900 hover:text-white bg-gray-100
 }
 
 
