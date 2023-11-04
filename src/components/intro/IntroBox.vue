@@ -1,7 +1,7 @@
 <template>
   <div class="inner-box">
-    <div class="inner-box-container" @click="() => isHidden = !isHidden" :class="isHidden ? 'hidden-container' : 'visible-container'">
-      <button class="card-header" >{{header}}</button>
+    <div class="inner-box-container card-header" @click="() => isHidden = !isHidden" :class="isHidden ? 'hidden-container' : 'visible-container'">
+      {{header}}
       <ul class="list-disc" :class="isHidden ? 'hidden' : ''">
         <slot></slot>
       </ul>
