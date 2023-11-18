@@ -1,4 +1,5 @@
 <template>
+  <div>
     <div class="bg-gray-100 rounded-md p-4 mb-4 text-black min-h-full">
       <div class="flex justify-center">
         <img class="profile-img" src="../../assets/profile_img.jpeg" alt="Bild"/>
@@ -11,13 +12,13 @@
           on diverse datasets and aim to improve the predictive power of machine learning using graph structures.
         </p>
       </div>
-      <div class="flex justify-center mt-4 cursor-pointer" @click="scrollToCareer">
-        <img src="../../assets/double_down.svg" class="scale-90 animate-bounce h-12"/>
-      </div>
+      <a class="flex justify-center mt-4 cursor-pointer block scroll-smooth" href="#career">
+        <img src="../../assets/double_down.svg" class="scale-90 animate-bounce h-12" alt="picture"/>
+      </a>
 
     </div>
 
-    <div class="flex justify-center text-gray-900 h-full w-full">
+    <div class="flex justify-center text-gray-900 h-full w-full scroll-smooth">
     <div class="lg:w-2/3 pt-3 w-full">
 
       <h4 class="subsection-header" id="career">Professional Career.</h4>
@@ -175,8 +176,8 @@
       <div>Current date: 31.10.23 - First prototype portfolio</div>
       <div>Current date: 08.10.23 - Project initialization</div>
   </div>
-
     </div>
+  </div>
 </template>
 
 <script setup>
@@ -184,10 +185,7 @@ import IntroBox from "./IntroBox.vue";
 import {ref} from "vue";
 
 const isSmall = ref(window.innerWidth<=500)
-const scrollToCareer = function(){
-  const careerHeader = document.getElementById("career")
-  careerHeader.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
-}
+
 </script>
 
 <style scoped>
