@@ -193,6 +193,14 @@ const isSmall = ref(window.innerWidth<=500)
   @apply flex overflow-x-auto w-full flex-nowrap whitespace-nowrap pr-4 pl-4
   lg:flex-nowrap lg:flex-row lg:whitespace-normal
 }
+.row::-webkit-scrollbar{
+  @apply hidden
+}
+.row{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+} 
+    
 
 .row:first-child{
   @apply ml-auto lg:ml-0
