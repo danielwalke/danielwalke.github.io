@@ -1,5 +1,4 @@
 <template>
-  <div>
     <div class="bg-gray-100 rounded-md p-4 mb-4 text-black min-h-full">
       <div class="flex justify-center">
         <img class="profile-img" src="../../assets/profile_img.jpeg" alt="Bild"/>
@@ -177,7 +176,6 @@
       <div>Current date: 08.10.23 - Project initialization</div>
   </div>
     </div>
-  </div>
 </template>
 
 <script setup>
