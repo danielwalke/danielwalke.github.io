@@ -1,21 +1,22 @@
 <template>
-    <div>
-        <div class="bg-gray-100 rounded-md p-4 mb-4 text-black min-h-screen">
+    <div class="h-full">
+        <div class="bg-gray-100 rounded-md p-4 mb-4 text-black min-h-screen h-full">
           <div class="flex justify-center">
         <img class="profile-img" src="../../assets/profile_img.jpeg" alt="Bild"/>
-      </div>
+      		</div>
       <h1 class="name-text"> My name is Daniel Walke. </h1>
-      <div class="flex justify-center">
-        <p class="intro-text">
-          I am PhD student at the Otto-von-Guericke University. The topic for my PhD is optimizing graph databases and graph learning for
-          large clinical and biological datasets. Therefore, I applied several graph learning algorithms like Graph Neural Networks
-          on diverse datasets and aim to improve the predictive power of machine learning using graph structures.
-        </p>
-      </div>
-      <a class="flex justify-center mt-4 cursor-pointer block scroll-smooth" href="#career">
-        <img src="../../assets/double_down.svg" class="scale-90 animate-bounce h-12" alt="picture"/>
-      </a>
-
+      <div class="justify-between flex flex-col h-[50%]">
+		  <div class="flex justify-center">
+			  <p class="intro-text">
+				  I am PhD student at the Otto-von-Guericke University. The topic for my PhD is optimizing graph databases and graph learning for
+				  large clinical and biological datasets. Therefore, I applied several graph learning algorithms like Graph Neural Networks
+				  on diverse datasets and aim to improve the predictive power of machine learning using graph structures.
+			  </p>
+		  </div>
+		  <a class="flex justify-center mt-4 cursor-pointer block scroll-smooth" href="#career">
+			  <img src="../../assets/double_down.svg" class="scale-90 animate-bounce h-12" alt="picture"/>
+		  </a>
+	  </div>
     </div>
 
     <div class="flex justify-center text-gray-900 h-full w-full scroll-smooth">
@@ -199,8 +200,8 @@ const isSmall = ref(window.innerWidth<=500)
 .row{
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-} 
-    
+}
+
 
 .row:first-child{
   @apply ml-auto lg:ml-0
