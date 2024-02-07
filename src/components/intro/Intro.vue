@@ -8,7 +8,7 @@
       <div class="justify-between flex flex-col h-[50%]">
 		  <div class="flex justify-center">
 			  <p class="intro-text">
-				  I am PhD student at the Otto-von-Guericke University. The topic for my PhD is optimizing graph databases and graph learning for
+				  I am currently a PhD student at the Otto-von-Guericke University. The topic for my PhD is optimizing graph databases and graph learning for
 				  large clinical and biological datasets. Therefore, I applied several graph learning algorithms like Graph Neural Networks
 				  on diverse datasets and aim to improve the predictive power of machine learning using graph structures.
 			  </p>
